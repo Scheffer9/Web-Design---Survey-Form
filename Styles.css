@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: verdana;
+    background-image: url(https://pure.wallpapergk.com/download/code_text_programming_coding-1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+  }
+  
+  
+  #title {
+    text-align: center;
+    margin: 1em auto;
+    font-size: 2rem;
+  }
+  
+  #description {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 20px; 
+    }
+  
+  form {
+    width: 70vw;
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 2.5em;
+    background: #0305289F;
+    padding: 1em;
+    border-radius: 5px;
+  }
+
+  
+  fieldset {
+     border: none;
+     
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .personal-dates input {
+  display: block;
+  max-width: calc(100% - 14px);
+  width: 100%;
+  margin-top: 3px;
+  height: 25px;
+  padding-left: 10px;
+  }
+  
+  .personal-dates select {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 3px;
+    height: 25px;
+    padding-left: 10px;
+  }
+  
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    width: 60%;
+    height: 2em;
+    font-size: 1.5rem;
+    background-color: rgb(50, 255, 0);
+    border-color: rgb(50,255,0);
+    color:white;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(0,150,0);
+    border-color: rgb(0,150,0);
+  }
+  
+  #survey-form-two label {
+    margin: 5px;
+  }
+  
+  .feature select {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    height: 25px;
+    padding-left: 10px;
+  }
+  
+  .recommend label {
+    margin: 10px 0;
+  }
+  
+  textarea {
+    display: block;
+    max-width: calc(100% - 14px);
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+    resize: none;
+  }
+  
+  #title-recommend {
+    margin-bottom: 0;
+  }
